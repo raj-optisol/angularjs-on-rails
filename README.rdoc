@@ -1,6 +1,6 @@
 = optisol-angular-rails
 
-Description goes here.
+optisol-ngularjs-rails wraps the Angular.js library for use in Rails. It have generators to create structured angular app inside assets.
 
 == Contributing to optisol-angular-rails
  
