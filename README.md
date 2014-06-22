@@ -1,4 +1,4 @@
-## Optisol Angular Rails
+## Optisol Angular Rails [![Gem Version](https://badge.fury.io/rb/optisol-angular-rails.svg)](http://badge.fury.io/rb/optisol-angular-rails)
 
 optisol-angular-rails wraps the [AngularJS 1.2.18](http://angularjs.org) library for use in [Rails 3.1](http://rubyonrails.org/) and above. This project is an application skeleton for a typical AngularJS web app. You can use it to quickly bootstrap your angular webapp projects.
 
