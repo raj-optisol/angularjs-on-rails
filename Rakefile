@@ -17,10 +17,11 @@ Jeweler::Tasks.new do |gem|
   gem.name = "optisol-angular-rails"
   gem.homepage = "http://github.com/raj-optisol/optisol-angular-rails"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "Easily setup and use AngularJS with Rails 3.1 and greater"
+  gem.description = "Optisol Angular Rails wraps the AngularJS 1.2.18 library for use in Rails 3.1 and above. This project is an application skeleton for a typical AngularJS web app. You can use it to quickly bootstrap your angular webapp projects"
   gem.email = "rajendran.s@optisolbusiness.com"
   gem.authors = ["Rajendran S"]
+  gem.files = Dir["lib/**/*"] + Dir["app/**/*"] 
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
