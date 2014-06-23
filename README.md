@@ -13,7 +13,7 @@ Then run the following commands:
 	bundle install
 	rails g angular:install
 
-## Directory structure
+## Angular App Structure
 
 Running `rails g angular:install` will create the following directory structure under `app/assets/javascripts/angular`:
   
