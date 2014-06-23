@@ -14,8 +14,8 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
-  gem.name = "optisol-angular-rails"
-  gem.homepage = "http://github.com/raj-optisol/optisol-angular-rails"
+  gem.name = "angularjs-on-rails"
+  gem.homepage = "http://github.com/raj-optisol/angularjs-on-rails"
   gem.license = "MIT"
   gem.summary = "Easily setup and use AngularJS with Rails 3.1 and greater"
   gem.description = "Optisol Angular Rails wraps the AngularJS 1.2.18 library for use in Rails 3.1 and above. This project is an application skeleton for a typical AngularJS web app. You can use it to quickly bootstrap your angular webapp projects"
@@ -46,7 +46,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "optisol-angular-rails #{version}"
+  rdoc.title = " #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end

@@ -1,12 +1,12 @@
-## Optisol Angular Rails [![Gem Version](https://badge.fury.io/rb/optisol-angular-rails.svg)](http://badge.fury.io/rb/optisol-angular-rails)
+## AngularJS on Rails [![Gem Version](https://badge.fury.io/rb/.svg)](http://badge.fury.io/rb/)
 
-optisol-angular-rails wraps the [AngularJS 1.2.18](http://angularjs.org) library for use in [Rails 3.1](http://rubyonrails.org/) and above. This project is an application skeleton for a typical AngularJS web app. You can use it to quickly bootstrap your angular webapp projects.
+ wraps the [AngularJS 1.2.18](http://angularjs.org) library for use in [Rails 3.1](http://rubyonrails.org/) and above. This project is an application skeleton for a typical AngularJS web app. You can use it to quickly bootstrap your angular webapp projects.
 
 ## Installation
 
 In your Gemfile, add this line:
 
-	gem 'optisol-angular-rails'
+	gem ''
 
 Then run the following commands:
 
@@ -47,7 +47,7 @@ If you want to Skip Git ignores and keeps
 	rails g angular:install -G
 
 
-## Contributing to Optisol Angular Rails
+## Contributing to AngularJS on Rails
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.

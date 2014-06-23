@@ -1,6 +1,6 @@
 require 'rails'
 
-module OptisolAngularRails
+module AngularjsOnRails
   class Engine < Rails::Engine
   end
 end
