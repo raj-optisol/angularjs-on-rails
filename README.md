@@ -6,7 +6,7 @@
 
 In your Gemfile, add this line:
 
-	gem ''
+	gem 'angularjs-on-rails'
 
 Then run the following commands:
 
