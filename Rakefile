@@ -18,7 +18,7 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/raj-optisol/angularjs-on-rails"
   gem.license = "MIT"
   gem.summary = "Easily setup and use AngularJS with Rails 3.1 and greater"
-  gem.description = "Optisol Angular Rails wraps the AngularJS 1.2.18 library for use in Rails 3.1 and above. This project is an application skeleton for a typical AngularJS web app. You can use it to quickly bootstrap your angular webapp projects"
+  gem.description = "AngularJS on Rails wraps the AngularJS 1.2.18 library for use in Rails 3.1 and above. This project is an application skeleton for a typical AngularJS web app. You can use it to quickly bootstrap your angular webapp projects"
   gem.email = "rajendran.s@optisolbusiness.com"
   gem.authors = ["Rajendran S"]
   gem.files = Dir["lib/**/*"] + Dir["app/**/*"] 
@@ -46,7 +46,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = " #{version}"
+  rdoc.title = "angularjs-on-rails #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
