@@ -46,6 +46,25 @@ If you want to Skip Git ignores and keeps
 
 	rails g angular:install -G
 
+### [Best Practice Recommendations for Angular App Structure](http://goo.gl/8quKVj)
+
+
+### AngularJS vs. Turbolinks
+
+Turbolinks as well as AnguluarJS can both be used to make a web application respond faster, in the sense that in response to a user interaction something happens on the web page without reloading and rerendering the whole page.
+
+They differ in the following regard:
+
+AngularJS helps you to build a rich client-side application, where you write a lot of JavaScript code that runs on the client machine. This code makes the site interactive to the user. It communicates with the server-side backend, i.e. with the Rails app, using a JSON API.
+
+Turbolinks, on the other hand, helps to to make the site interactive without requiring you to code JavaScript. It allows you to stick to the Ruby/Rails code run on the server-side and still, "magically", use AJAX to replace, and therefore rerender, only the parts of the page that have changed.
+
+Where Turbolinks is strong in allowing you use this powerful AJAX mechanism without doing anything by hand and just code Ruby/Rails, there might come a stage, as your application grows, where you would like to integrate a JavaScript framework such as AngularJS.
+
+Especially in this intermedium stage, where you would like to successively integrate AngularJS into your application, one component at a time, it can make perfectly sense to run Angular JS and Turbolinks together.
+
+[..more](http://goo.gl/fIhezq)
+
 
 ## Contributing to AngularJS on Rails
  
