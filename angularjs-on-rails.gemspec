@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Rajendran S"]
-  s.date = "2014-06-23"
+  s.date = "2014-06-25"
   s.description = "AngularJS on Rails wraps the AngularJS 1.2.18 library for use in Rails 3.1 and above. This project is an application skeleton for a typical AngularJS web app. You can use it to quickly bootstrap your angular webapp projects"
   s.email = "rajendran.s@optisolbusiness.com"
   s.extra_rdoc_files = [
@@ -38,7 +38,7 @@ Gem::Specification.new do |s|
   ]
   s.homepage = "http://github.com/raj-optisol/angularjs-on-rails"
   s.licenses = ["MIT"]
-  s.rubygems_version = "2.2.2"
+  s.rubygems_version = "2.3.0"
   s.summary = "Easily setup and use AngularJS with Rails 3.1 and greater"
 
   if s.respond_to? :specification_version then
