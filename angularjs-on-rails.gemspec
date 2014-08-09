@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.authors = ["Rajendran S"]
   s.date = "2014-06-25"
-  s.description = "AngularJS on Rails wraps the AngularJS 1.2.18 library for use in Rails 3.1 and above. This project is an application skeleton for a typical AngularJS web app. You can use it to quickly bootstrap your angular webapp projects"
+  s.description = "AngularJS on Rails wraps the AngularJS 1.2.21 library for use in Rails 3.1 and above. This project is an application skeleton for a typical AngularJS web app. You can use it to quickly bootstrap your angular webapp projects"
   s.email = "rajendran.s@optisolbusiness.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
